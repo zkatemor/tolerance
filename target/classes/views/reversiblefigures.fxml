@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="methodPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="855.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ReversibleFiguresController">
+   <children>
+      <ImageView fx:id="reversibleFigureImage" fitHeight="580.0" fitWidth="835.0" layoutX="193.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="138.0" AnchorPane.leftAnchor="193.0" AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="139.0" />
+      <GridPane fx:id="buttonsGridPane" layoutX="232.0" layoutY="730.0" prefHeight="51.0" prefWidth="756.0" AnchorPane.bottomAnchor="74.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="232.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <JFXButton fx:id="firstButton" onAction="#answerButtonClick" prefHeight="50.0" prefWidth="370.0" />
+            <JFXButton fx:id="secondButton" onAction="#answerButtonClick" prefHeight="50.0" prefWidth="370.0" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <Label fx:id="infoImageLabel" layoutX="193.0" layoutY="112.0" text="Иллюзия Ястрова (Jastrow, 1899)" textAlignment="CENTER" AnchorPane.bottomAnchor="722.0" AnchorPane.leftAnchor="193.0" />
+      <Label fx:id="infoLabel" alignment="CENTER" layoutX="30.0" layoutY="14.0" prefHeight="80.0" prefWidth="1160.0" text="Осталось времени (в секундах): 5">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="menuButton" layoutX="3.0" layoutY="805.0" onAction="#menuButtonClick" prefHeight="50.0" prefWidth="380.0" text="ГЛАВНОЕ МЕНЮ" />
+   </children>
+</AnchorPane>

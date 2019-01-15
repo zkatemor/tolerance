@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="methodPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="855.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ApparentMovementController">
+   <children>
+      <JFXButton fx:id="answerButton" layoutX="840.0" layoutY="805.0" onAction="#answerButtonClick" prefHeight="50.0" prefWidth="380.0" text="ОТВЕТИТЬ" />
+      <JFXButton fx:id="menuButton" layoutX="14.0" layoutY="805.0" onAction="#menuButtonClick" prefHeight="50.0" prefWidth="380.0" text="ГЛАВНОЕ МЕНЮ" />
+      <ImageView fx:id="movementView" fitHeight="546.0" fitWidth="809.0" layoutX="218.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="infoLabel" alignment="CENTER" layoutX="30.0" layoutY="14.0" prefHeight="50.0" prefWidth="1160.0" text="Внимательно следите за лошадью:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="progressBar" layoutX="175.0" layoutY="618.0" prefHeight="0.0" prefWidth="888.0" progress="0.0" />
+      <JFXSlider fx:id="sliderStart" layoutX="177.0" layoutY="671.0" max="20.0" prefHeight="18.0" prefWidth="888.0" />
+      <JFXSlider fx:id="sliderFinish" layoutX="177.0" layoutY="719.0" max="20.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="18.0" prefWidth="888.0" />
+      <Label layoutX="175.0" layoutY="650.0" text="Отметьте, когда лошадь начала движение, по вашему мнению:" />
+      <Label layoutX="175.0" layoutY="698.0" text="Отметьте, когда лошадь закончила движение, по вашему мнению:" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="757.0" prefHeight="21.0" prefWidth="1154.0" text="Если вы уверены, что на протяжении всего времени лошадь не движется, то оставьте бегунки на исходных положениях." />
+   </children>
+</AnchorPane>

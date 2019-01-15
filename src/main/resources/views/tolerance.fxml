@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="methodPane" prefHeight="855.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ResultController">
+   <children>
+      <Label fx:id="resultLabel" alignment="CENTER" contentDisplay="TOP" layoutX="19.0" layoutY="24.0" prefHeight="64.0" prefWidth="1179.0" text="ТОЛЕРАНТНОСТЬ К НЕРЕАЛИСТИЧЕСКОМУ ОПЫТУ" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="45.0" />
+         </font></Label>
+      <ImageView fx:id="resultView" fitHeight="668.0" fitWidth="1179.0" layoutX="21.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/result/tolerance.JPG" />
+         </image></ImageView>
+      <JFXButton fx:id="goToMenuButton" layoutX="419.0" layoutY="784.0" onAction="#goToMenuButtonClick" prefHeight="50.0" prefWidth="380.0" text="ГЛАВНОЕ МЕНЮ" />
+   </children>
+</AnchorPane>

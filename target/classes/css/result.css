@@ -1,0 +1,8 @@
+#resultLabel {
+    -fx-font-size        : 40;
+    -fx-border-color     : black;
+}
+
+#resultView{
+    -fx-effect           : dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 )
+}

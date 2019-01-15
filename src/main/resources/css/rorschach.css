@@ -1,0 +1,26 @@
+#choiceGridPane {
+    -fx-font-family       : Arial Narrow;
+    -fx-font-size         : 20;
+    -fx-font-weight       : 900;
+    -fx-text-fill         : black;
+}
+
+.jfx-radio-button {
+    -jfx-selected-color   : black;
+    -jfx-unselected-color : white;
+    -fx-text-fill         : white;
+    -fx-effect            : dropshadow( one-pass-box , black, 8 , 0.0 , 2 , 0 );
+}
+
+#infoLabel{
+    -fx-font-size         : 40;
+    -fx-border-color      : black;
+}
+
+#counterLabel{
+    -fx-font-size        : 25;
+}
+
+#imageView{
+    -fx-effect           : dropshadow( one-pass-box , black, 8 , 0.0 , 2 , 0 );
+}

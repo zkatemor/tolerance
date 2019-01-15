@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="methodPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="855.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AboutMethodController">
+   <children>
+      <JFXButton fx:id="startButton" layoutX="840.0" layoutY="807.0" onAction="#startButtonClick" prefHeight="50.0" prefWidth="380.0" text="НАЧАТЬ" />
+      <JFXButton fx:id="menuButton" layoutX="14.0" layoutY="807.0" onAction="#menuButtonClick" prefHeight="50.0" prefWidth="380.0" text="ГЛАВНОЕ МЕНЮ" />
+      <ImageView fx:id="aboutMethodView" fitHeight="646.0" fitWidth="1160.0" layoutX="36.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/about/rorschach.JPG" />
+         </image></ImageView>
+      <Label fx:id="infoLabel" alignment="CENTER" layoutX="30.0" layoutY="30.0" prefHeight="72.0" prefWidth="1160.0" text="ИНСТРУКЦИЯ К МЕТОДИКЕ:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

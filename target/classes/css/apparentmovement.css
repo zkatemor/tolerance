@@ -1,0 +1,7 @@
+#sliderStart .thumb{
+    -fx-background-image :url("/images/icons/right.png");
+}
+
+#sliderFinish .thumb{
+    -fx-background-image :url("/images/icons/left.png");
+}

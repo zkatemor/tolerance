@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="methodPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="855.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RorschachController">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="589.0" fitWidth="800.0" layoutX="14.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="171.135009765625" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="423.0" AnchorPane.topAnchor="171.0">
+         <image>
+            <Image url="@../images/rorschach/rorschach_test_1.jpg" />
+         </image></ImageView>
+      <Label fx:id="infoLabel" alignment="CENTER" layoutX="31.0" layoutY="30.0" prefHeight="80.0" prefWidth="1160.0" text="Рассмотрите карточку и выберите, что вы на ней увидели:" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="29.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <GridPane fx:id="choiceGridPane" layoutX="840.0" layoutY="338.0" prefHeight="156.0" prefWidth="312.0" AnchorPane.bottomAnchor="361.0" AnchorPane.topAnchor="338.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+      </GridPane>
+      <JFXButton fx:id="menuButton" layoutX="14.0" layoutY="805.0" onAction="#menuButtonClick" prefHeight="50.0" prefWidth="380.0" text="ГЛАВНОЕ МЕНЮ" />
+      <JFXButton fx:id="nextImageButton" layoutX="840.0" layoutY="805.0" onAction="#nextImageButtonClick" prefHeight="50.0" prefWidth="380.0" text="ОТВЕТИТЬ" />
+      <Label fx:id="counterLabel" layoutX="14.0" layoutY="142.0" prefHeight="29.0" prefWidth="814.0" text="Карточка 1 из 10" AnchorPane.bottomAnchor="684.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="142.0" />
+   </children>
+</AnchorPane>

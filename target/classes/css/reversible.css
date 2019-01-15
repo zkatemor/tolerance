@@ -1,0 +1,51 @@
+#buttonsGridPane {
+    -fx-font-family       : Arial Narrow;
+    -fx-font-size         : 20;
+    -fx-font-weight       : 900;
+    -fx-text-fill         : black;
+}
+
+#infoLabel{
+    -fx-font-size         : 40;
+    -fx-border-color      : gray;
+}
+
+#infoImageLabel{
+    -fx-font-size        : 25;
+}
+
+#reversibleFigureImage{
+    -fx-effect           : dropshadow( one-pass-box , black, 8 , 0.0 , 2 , 0 );
+}
+
+#firstButton{
+     -fx-background-color : lightgray;
+     -fx-text-fill        : black;
+     -fx-font-weight      : 900;
+ }
+
+#firstButton:hover {
+    -fx-background-color : gray;
+}
+
+#firstButton{
+    -fx-font-family      : Arial Narrow;
+    -fx-font-size        : 20;
+    -fx-effect           : dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 )
+}
+
+#secondButton{
+    -fx-background-color : lightgray;
+    -fx-text-fill        : black;
+    -fx-font-weight      : 900;
+}
+
+#secondButton:hover {
+    -fx-background-color : gray;
+}
+
+#secondButton{
+    -fx-font-family      : Arial Narrow;
+    -fx-font-size        : 20;
+    -fx-effect           : dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 )
+}

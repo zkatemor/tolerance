@@ -1,0 +1,70 @@
+#pane{
+    -fx-effect           : dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-background-color : gray;
+}
+
+.jfx-button {
+    -fx-background-color : #a5a4a9;
+    -fx-text-fill        : white;
+    -fx-font-weight      : 900;
+}
+
+.image-view{
+    -fx-effect           : dropshadow( one-pass-box , black, 8 , 0.0 , 2 , 0 );
+}
+
+#infoLabel{
+    -fx-font-size        : 40;
+    -fx-border-color     : black;
+}
+
+.jfx-button:hover {
+    -fx-background-color : #708090;
+}
+
+.progress-bar .track{
+    -fx-text-box-border  : black;
+    -fx-control-inner-background: #a5a4a9;
+}
+
+.progress-bar .bar {
+    -fx-background-color : white;
+}
+
+.jfx-button{
+    -fx-font-family      : Arial Narrow;
+    -fx-font-size        : 25;
+    -fx-effect           : dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 )
+}
+
+.label {
+    -fx-font-family      : Arial Narrow;
+    -fx-text-fill        : white;
+    -fx-font-size        : 20;
+    -fx-effect           : dropshadow( one-pass-box , black, 8 , 0.0 , 2 , 0 );
+}
+
+.jfx-slider .fill:hover {
+    -fx-background-color  : #a5a4a9;
+}
+
+.jfx-slider > .track {
+    -fx-background-color  : #a5a4a9;
+}
+
+.jfx-slider > .thumb {
+    -fx-background-color  : black;
+}
+
+.jfx-slider > .colored-track {
+    -fx-background-color  : black;
+}
+
+.jfx-slider > .animated-thumb {
+    -fx-background-color  : gray;
+}
+
+.jfx-slider .slider-value {
+    -fx-fill              : white;
+    -fx-stroke            : white;
+}
